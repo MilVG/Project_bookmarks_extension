@@ -1,20 +1,13 @@
-import { useState } from "react"
-
+import { Card } from "~components/Card"
+import "./style.css"
 function IndexPopup() {
-  const [data, setData] = useState("")
 
   return (
     <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        padding: 16
-      }}>
-      <h1>
-        Welcome to your <a href="https://www.plasmo.com">Plasmo</a> Extension!
-      </h1>
-      <input onChange={(e) => setData(e.target.value)} value={data} />
-      <footer>Crafted by @PlasmoHQ</footer>
+      className="w-[450px] h-[200px] flex flex-col justify-center items-center
+      bg-[url(https://uiuiui.in/uploads/cache/366210/f26/6edf26e405374d69e12e79855821884a.webp)] bg-cover"
+    >
+      <Card />
     </div>
   )
 }
