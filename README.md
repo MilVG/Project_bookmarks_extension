@@ -1,33 +1,23 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
 
-## Getting Started
+# 🔖 taglynk
 
-First, run the development server:
+**taglynk** es una aplicación moderna para la gestión de marcadores web. Organiza, guarda y accede fácilmente a tus enlaces favoritos con una interfaz rápida y eficiente.
 
-```bash
-pnpm dev
-# or
-npm run dev
-```
+## 🚀 Tecnologías utilizadas
 
-Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
+- [Plasmo Framework](https://www.plasmo.com/) – para desarrollo de extensiones modernas
+- [React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/) – estilos rápidos y responsivos
+- [Axios](https://axios-http.com/) – cliente HTTP para consumir APIs
 
-You can start editing the popup by modifying `popup.tsx`. It should auto-update as you make changes. To add an options page, simply add a `options.tsx` file to the root of the project, with a react component default exported. Likewise to add a content page, add a `content.ts` file to the root of the project, importing some module and do some logic, then reload the extension on your browser.
+## ✨ Características
 
-For further guidance, [visit our Documentation](https://docs.plasmo.com/)
+- Añadir, editar y eliminar marcadores
+- Organización por etiquetas
+- Interfaz minimalista y fluida
+- Pensado para usarse como extensión de navegador
 
-## Making production build
+---
 
-Run the following:
+Desarrollado con ❤️ por [Milton](https://github.com/MilVG)
 
-```bash
-pnpm build
-# or
-npm run build
-```
-
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
-
-## Submit to the webstores
-
-The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
