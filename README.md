@@ -19,5 +19,5 @@
 
 ---
 
-Desarrollado con ❤️ por [Milton](https://github.com/MilVG)
+Desarrollado con ❤️ por [Notlim_dev](https://github.com/MilVG)
 
